@@ -1,0 +1,49 @@
+{
+  "name": "even",
+  "description": "Get the even numbered items from an array.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/even",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/even.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/even/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/even/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "is-even": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "array",
+    "count",
+    "even",
+    "filter",
+    "integer",
+    "math",
+    "numeric",
+    "odd",
+    "string"
+  ]
+}
